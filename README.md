@@ -1,4 +1,3 @@
-express
-=======
+Algorithms in javascript that I've created to solve problems from 11 to 20 for:
 
-All Basic Code on Express.js
+http://projecteuler.net/
