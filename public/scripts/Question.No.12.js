@@ -1,5 +1,4 @@
-
-
+function triangular() {
     var a = [];
     var tri = 0;
     var i, j, k, c = 0;
@@ -24,9 +23,10 @@
 
 
         if (a.length > 5) {
-            res.end('The first triangular number that have over 5 divisors is ' + tri);
+            alert('Question_No.12 \n\n The first triangular number that have over 5 divisors is ' + tri);
             break;
 
         }
         tri = 0;
     }
+}

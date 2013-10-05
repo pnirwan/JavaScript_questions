@@ -1,7 +1,5 @@
-
-
+function collatz() {
     number = 13;
-        res.end( 'The terms in the sequence starting with ' + number);
     var seqLength = 0;
     var startingNumber = 0;
     var num = 0, i = 0, k = 0;
@@ -22,7 +20,7 @@
             //if the num is even
             if ((num % 2) == 0) {
                 num = num / 2;
-               //if num is odd
+                //if num is odd
             } else {
                 num = num * 3 + 1;
             }
@@ -36,5 +34,6 @@
             startingNumber = i;
         }
     }
-       res.end(num);
+    alert('Question_No.14 \n\n The terms in the sequence starting with ' + number + ' are ' + num);
+}
 
