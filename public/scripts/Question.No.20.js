@@ -1,5 +1,4 @@
-function fac_digit_sum() {
-    var n = 10;
+   var n = 10;
     var product = n;
     sum = 0;
 
@@ -21,4 +20,3 @@ function fac_digit_sum() {
         sum = sum + parseInt(b[j]);
     }
     alert('Question_No.20 \n\n Factorial of ' + n + ' is ' + product + ' and the sum of the digits of the product is ' + sum);
-}

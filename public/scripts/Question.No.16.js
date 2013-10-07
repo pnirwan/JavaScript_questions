@@ -1,4 +1,4 @@
-function power_digit_sum() {
+
     n = 15;
     var product = 2;
     sum = 0;
@@ -21,7 +21,7 @@ function power_digit_sum() {
     }
     alert('Question_No.16 \n\n The sum of the digits of 2^15 is ' + sum);
 
-}
+
 
 
 

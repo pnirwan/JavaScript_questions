@@ -1,4 +1,4 @@
-function collatz() {
+
     number = 13;
     var seqLength = 0;
     var startingNumber = 0;
@@ -35,5 +35,5 @@ function collatz() {
         }
     }
     alert('Question_No.14 \n\n The terms in the sequence starting with ' + number + ' are ' + num);
-}
+
 

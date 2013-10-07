@@ -1,4 +1,4 @@
-function counting_sundays() {
+
     var year = 1901;
     isLeapYear = false;
     var totalSundays = 0;
@@ -41,6 +41,4 @@ function counting_sundays() {
     }
     alert('Question_No.19 \n\n The total number of Sundays that fell in the first of the month is: ' + totalSundays);
 
-
-}
 

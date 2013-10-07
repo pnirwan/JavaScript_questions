@@ -1,8 +1,6 @@
-function triangular() {
     var a = [];
     var tri = 0;
     var i, j, k, c = 0;
-
 
 // for calculating triangular numbers
     for (i = 1; 1; i++) {
@@ -29,4 +27,3 @@ function triangular() {
         }
         tri = 0;
     }
-}
