@@ -12,10 +12,21 @@ app.configure(function(){
     app.use(express.static(path.join(__dirname + '/public')));
 });
 
-app.get('/', function(req, res){
-    res.render('script.jade')
+app.get('/Question.No.12', function(req, res){
+    res.render('Question.No.12.jade')
+});
+app.get('/Question.No.14', function(req, res){
+    res.render('Question.No.14.jade')
+});
+app.get('/Question.No.16', function(req, res){
+    res.render('Question.No.16.jade')
+});
+app.get('/Question.No.19', function(req, res){
+    res.render('Question.No.19.jade')
+});
+app.get('/Question.No.20', function(req, res){
+    res.render('Question.No.20.jade')
 })
-
 
 
     .listen(1337, "localhost");
